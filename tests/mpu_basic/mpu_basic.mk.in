@@ -1,0 +1,14 @@
+mpu_basic_subproject_deps = \
+	util \
+	machine \
+	user \
+
+mpu_basic_hdrs = \
+	mpu_basic.h \
+
+mpu_basic_c_srcs = \
+
+mpu_basic_test_srcs =
+
+mpu_basic_install_prog_srcs = \
+	mpu_basic.c \

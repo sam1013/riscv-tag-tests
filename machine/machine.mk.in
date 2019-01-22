@@ -1,0 +1,41 @@
+machine_subproject_deps = \
+  softfloat \
+
+machine_hdrs = \
+  atomic.h \
+  bits.h \
+  fdt.h \
+  emulation.h \
+  encoding.h \
+  fp_emulation.h \
+  htif.h \
+  mcall.h \
+  mtrap.h \
+  machine.h \
+  uart.h \
+  finisher.h \
+  unprivileged_memory.h \
+  vm.h \
+  tag.h \
+  pmp.h \
+  test.h \
+
+machine_c_srcs = \
+  fdt.c \
+  mtrap.c \
+  minit.c \
+  htif.c \
+  emulation.c \
+  muldiv_emulation.c \
+  fp_emulation.c \
+  fp_ldst.c \
+  uart.c \
+  finisher.c \
+  misaligned_ldst.c \
+  tag.c \
+  pmp.c \
+  test.c \
+
+machine_asm_srcs = \
+  mentry.S \
+  fp_asm.S \

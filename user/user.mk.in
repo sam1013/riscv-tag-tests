@@ -1,0 +1,10 @@
+user_subproject_deps = \
+	util \
+	machine \
+
+user_hdrs = \
+	frontend.h \
+	syscall.h \
+
+user_c_srcs = \
+	frontend.c \

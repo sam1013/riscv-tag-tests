@@ -1,0 +1,14 @@
+mpu_tag_subproject_deps = \
+	util \
+	machine \
+	user \
+
+mpu_tag_hdrs = \
+	mpu_tag.h \
+
+mpu_tag_c_srcs = \
+
+mpu_tag_test_srcs =
+
+mpu_tag_install_prog_srcs = \
+	mpu_tag.c \
